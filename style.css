@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400italic,700|Montserrat:400,700');
+
+/* Fonts and colors */
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+  background-color: #f1f3f4;
+}
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+h2 {
+  color: #2c003e;
+  font-weight: normal;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #4352A1;
+}
+
+a:hover{
+  color:#636363;
+}
+
+/* Custom design */
+.banner {
+  background-image: url("images/ds3_new.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 120px 0;
+}
+.banner h1 {
+  font-size: 38px;
+}
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+.container {
+  width: 700px;
+  margin: 50px auto;
+  text-align: justify;
+}
+.link-medium {
+  color: #2c003e;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+/* Media queries */
+@media(max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 720px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 50px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
